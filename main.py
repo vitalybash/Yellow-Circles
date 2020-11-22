@@ -18,7 +18,7 @@ class App(QWidget):
         if self.paint:
             qp = QPainter()
             qp.begin(self)
-            self.drawCircyles(qp)
+            self.drawCircles(qp)
             qp.end()
 
     def do_paint(self):
